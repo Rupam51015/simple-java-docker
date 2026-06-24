@@ -20,6 +20,5 @@ jobs:
         with:
           java-version: ${{ matrix.java }}
           distribution: 'temurin'
-          cache: 'maven'
       - name: Verify Compilation
         run: javac src/Main.java
